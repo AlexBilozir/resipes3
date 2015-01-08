@@ -1,0 +1,434 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clear {
+
+	clear: both;
+}
+
+body {
+
+	background-color: #fff;
+	width: 100%;
+	min-width: 960px;
+
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+a:hover {
+
+
+}
+*::selection {
+	background: rgba(0,0,0,0.65);
+	color: white;
+}
+header {
+
+	height: 880px;
+	background: url(../images/main.jpg) center no-repeat;
+	background-size: cover;
+	
+}
+.wrapper {
+	
+	margin: 0 auto;
+	width: 66.7%;
+	position: relative;
+	min-width: 960px;
+	
+}
+header nav {
+
+	float: right;
+}
+header nav ul {
+
+	margin-top: 50px;
+}
+header nav ul li {
+
+	display: inline-block;
+	float: left;
+	margin-right: 40px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	text-shadow: -0.9px 0.5px 40px rgba(1, 1, 1, 0.55);
+
+}
+.logoBlock {
+
+	position: absolute; 
+	width: 450px; 
+	height: 350px; 
+	top: 50%; 
+	left: 50%; 
+	margin-top: 300px; 
+	margin-left: -225px; 
+	text-align: center;
+}
+.logoText{
+
+	opacity: 0.7;
+	color: #FFF;
+	font-family: "Times New Roman";
+	font-size: 36px;
+	font-weight: 500;
+	font-style: italic;
+	letter-spacing: 2px;
+	text-shadow: -0.9px 0.5px 40px rgba(1, 1, 1, 0.55);
+	margin-bottom: 15px;
+}
+h1 {
+
+	color: #fff;
+	font-family: "Lato";
+	font-size: 100px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-shadow: -0.9px 0.5px 40px rgba(1, 1, 1, 0.55);
+	margin-bottom: 50px;
+	letter-spacing: 5px;
+}
+.button {
+
+	color: #FFF;
+	font-family: "Lato";
+	font-size: 18px;
+	font-weight: 400;
+	border: 2px solid #fff;
+	text-transform: uppercase;
+	padding: 20px 80px 20px 80px;
+}
+.button:hover {
+
+
+	background-color: #f57365;
+	color: #000;
+	border: 2px solid #f57365;
+}
+.text3 {
+
+	text-transform: uppercase;
+	color: #FFF;
+	font-family: "Lato";
+	font-size: 14px;
+	text-shadow: -0.9px 0.5px 40px rgba(1, 1, 1, 0.55);
+	font-weight: 200;
+	margin-top: 45px;
+}
+.text3 a {
+
+	 text-decoration: underline;
+	 font-weight: 400;
+}
+
+.features ul {
+
+	margin: 80px 0;
+}
+
+.features ul li {
+
+	width: 300px;
+	padding-top: 150px;
+	margin-right: 15px;
+	float: left;
+	text-align: center;
+}
+.features h3 {
+
+	
+	font-family: "Lato";
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 5px 0;
+}
+.features p {
+
+	font-family: "Lato";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+.features ul li.feature1{
+
+	background: url(../images/icon-1.png) no-repeat top center;
+}
+.features ul li.feature2 {
+
+	background: url(../images/icon-2.png) no-repeat top center;
+}
+.features ul li.feature3 {
+
+	background: url(../images/icon-3.png) no-repeat top center;
+}
+.line {
+	width: 70px;
+	border: 1px solid #f57365;
+	margin-bottom: 15px;
+	margin-left: 115px;
+}
+.iphone {
+
+	height: 691px;
+	background: url(../images/iphone.jpg) no-repeat center;
+	position: relative;
+}
+.text {
+
+	position: absolute;
+	top: 155px;
+	left: 450px;
+	width: 495px;
+	height: 430px;
+}
+.text h2 {
+
+	text-transform: uppercase;
+	font-family: "Lato";
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+.line2 {
+
+	width: 95px;
+	border-top: 2px solid #f57365;
+	margin-top: -10px;
+	margin-bottom: 15px;
+}
+.text p {
+
+	font-family: "Lato";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;
+	margin-bottom: 25px;
+
+}
+a img {
+
+	padding-right: 5px;
+}
+#slider .item img {
+
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.text2 {
+
+	height: 170px;
+	text-align: center;
+
+}
+.text2 h2{
+
+	text-transform: uppercase;
+	font-family: "Lato";
+	font-size: 18px;
+	font-weight: 500;
+	padding-top: 100px;
+}
+.line3 {
+
+	width: 70px;
+	border: 1px solid #f57365;
+	margin-left: 680px;
+	margin-top: 5px;
+}
+
+.foodPhoto {
+	
+	width: 100%;
+	
+
+
+}
+.food1,.food2,.food3,.food4,.food5,.food6,.food7,.food8,.food9,.food10 {
+
+	width: 20%;
+	float: left;
+	background-color: #ccc;
+	height: 200px;
+	text-align: center;
+
+}
+.food1 {
+	background: url(../images/food-1.jpg) no-repeat;
+}
+.food2 {
+
+	background: url(../images/food-2.jpg) no-repeat;
+}
+.food3 {
+
+	background: url(../images/food-3.jpg) no-repeat;
+}
+.food4 {
+
+	background: url(../images/food-4.jpg) no-repeat;
+}
+.food5 {
+
+	background: url(../images/food-5.jpg) no-repeat;
+}
+.food6 {
+
+	background: url(../images/food-6.jpg) no-repeat;
+}
+.food7 {
+
+	background: url(../images/food-7.jpg) no-repeat;
+}
+.food8 {
+
+	background: url(../images/food-8.jpg) no-repeat;
+}
+.food9 {
+
+	background: url(../images/food-9.jpg) no-repeat;
+}
+.food10 {
+
+	background: url(../images/food-10.jpg) no-repeat;
+}
+.wrap {
+
+	display: inline-block;
+  	vertical-align: middle;
+}
+.foodPhoto p {
+
+	opacity: 0.9;
+	color: #FFF;
+	font-family: "Times New Roman";
+	font-size: 15px;
+	font-weight: 700;
+	font-style: italic;
+	text-shadow: -0.9px 0.5px 40px rgba(1, 1, 1, 0.55);
+}
+.wrap h4 {
+
+	color: #FFF;
+	font-family: "Lato";
+	text-transform: uppercase;
+	font-size: 36px;
+	font-weight: 500;
+	text-shadow: -0.9px 0.5px 40px rgba(1, 1, 1, 0.55);
+	
+}
+.helper {
+    display:inline-block;
+    vertical-align: middle;
+    height:100%;
+    width:0px;
+}
+.num {
+
+	width: 20%;
+	height: 175px;
+	float: left;
+	text-align: center;
+
+}
+.wrap p strong {
+
+	color: #000;
+	font-family: "Lato";
+	font-size: 36px;
+	font-weight: 500;
+	display: block;
+	padding-bottom: 10px;
+}
+.wrap p small {
+
+	color: #000;
+	font-family: "Lato";
+	font-size: 16px;
+	font-weight: 200;
+}
+footer {
+
+	height: 90px;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+.copy {
+
+	float: left;
+	opacity: 0.5;
+	color: #8B8B8B;
+	font-family: "Lato";
+	font-size: 14px;
+	font-weight: 300;
+	padding-top: 43px;
+}
+.design {
+
+	float: right;
+	font-family: "Lato";
+	font-size: 14px;
+	color: #8B8B8B;
+	font-weight: 300;
+	padding-top: 43px;
+	letter-spacing: 1.5px;
+}
+.design span {
+
+	font-weight: 400;
+	color: #000;
+}
+
+
